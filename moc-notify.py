@@ -61,7 +61,7 @@ class MocNotify():
         # The second param is the replace id, so get the notify id back,
         # store it, and send it as the replacement on the next call.
         self.notifyid = self.notifyservice.Notify(
-            "Spotify-notify",
+            "moc-notify",
             self.notifyid,
             coverImage,
             track.title,
